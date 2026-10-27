@@ -1103,3 +1103,14 @@ a { color: inherit; text-decoration: none; }
 .sluzby-cta .btn--ghost:hover {
     border-color: #fff;
 }
+
+/* Website credit */
+.footer-credit {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.footer-credit:hover,
+.footer-credit:focus-visible {
+  text-decoration-thickness: 2px;
+}
